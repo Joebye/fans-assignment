@@ -1,0 +1,20 @@
+{
+    "server": {
+        "port": 3500
+    },
+    "rowCount": {
+        "count": 10
+    },
+    "seqDb": {
+        "collection": "Users",
+        "username": "root",
+        "password": "password",
+        "host": "localhost",
+        "dialect": "mysql"
+    },
+    "jwt": {
+        "env_secret": "JWT_SECRET_TEST",
+        "jwt_secret": "jwt_secret",
+        "expiresIn": "30 days"
+}
+}
